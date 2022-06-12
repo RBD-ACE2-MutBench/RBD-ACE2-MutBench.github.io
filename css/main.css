@@ -1,13 +1,13 @@
 /* Fonts */
 @font-face {
-    font-family: "Work Sans";
-    src: url("fonts/WorkSans-Regular.ttf") format("truetype");
-    font-weight: bold;
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Regular.ttf") format("truetype");
+    font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: "Work Sans";
-    src: url("fonts/WorkSans-Medium.ttf") format("truetype");
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-SemiBold.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
 }
@@ -17,7 +17,7 @@ html, body {
 	width: 100%;
 	height: 100%;
 
-	font-family: "Work Sans";
+	font-family: "Montserrat";
 }
 
 nav > a{
