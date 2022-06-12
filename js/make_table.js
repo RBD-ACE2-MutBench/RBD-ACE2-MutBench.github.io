@@ -22,54 +22,60 @@ table = new Tabulator("#models-table", {
   // Formatting
   columns: [
     { 
-     title: "Mutation Position",
+     title: "RBD/ACE2 Mutation",
      field:"Names",
      responsive: 0,
-     widthGrow: 2,
-     minWidth: 150,
+     widthGrow: 1.4,
+     minWidth: 100,
      selectable: false
     },
     {
       title:"HADDOCK",
       field:"HADDOCK",
-      description:"HADDOCK score. A prediction of how well the proteins interact. Lower scores mean stronger (better) interactions.",
+      description:"HADDOCK scores. Lower scores indicate stronger (better) interactions.",
       responsive: 0,
-      minWidth: 100
+      widthGrow: 0.9,
+      minWidth: 50
     },
     {
       title:"FoldX",
       field:"FoldX",
-      description:"Foldx score. A prediction of how well the proteins interact. Lower scores mean stronger (better) interactions.",
+      description:"FoldX scores. Lower scores indicate stronger (better) interactions.",
       responsive: 0,
-      minWidth: 100
+      widthGrow: 0.6,
+      minWidth: 50
     },
     {
       title:"FoldXwater",
       field:"FoldXwater",
-      description:"Foldxwater score. A prediction of how well the proteins interact. Lower scores mean stronger (better) interactions.",
+      description:"FoldXwater scores. Lower scores indicate stronger (better) interactions.",
       responsive: 0,
-      minWidth: 100
+      widthGrow: 0.9,
+      minWidth: 50
     },
     {
       title:"EvoEF1",
       field:"EvoEF1",
-      description:"Evoef1 score. A prediction of how well the proteins interact. Lower scores mean stronger (better) interactions.",
+      description:"Evoef1 scores. Lower scores indicate stronger (better) interactions.",
       responsive: 0,
-      minWidth: 100
+      widthGrow: 0.6,
+      minWidth: 50
     },
     {
       title:"MutaBind2",
       field:"MutaBind2",
-      description:"Mutabind2 score. A prediction of how well the proteins interact. Lower scores mean stronger (better) interactions.",
+      description:"Mutabind2 scores. Lower scores indicate stronger (better) interactions.",
       responsive: 0,
-      minWidth: 100
+      widthGrow: 0.9,
+      minWidth: 50
     },
     {
       title:"SSIPe",
       field:"SSIPe",
-      description:"HADDOCK score. A prediction of how well the proteins interact. Lower scores mean stronger (better) interactions.",
+      description:"SSPIe scores. Lower scores indicate stronger (better) interactions.",
       responsive: 0,
-      minWidth: 100
+      widthGrow: 0.8,
+      minWidth: 50
     },
 ,
   ],
