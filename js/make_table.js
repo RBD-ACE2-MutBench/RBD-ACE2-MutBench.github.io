@@ -25,7 +25,6 @@ table = new Tabulator("#models-table", {
      title: "Mutation Position",
      field:"Names",
      responsive: 0,
-     widthGrow: 2,
      minWidth: 100,
      selectable: false
     },
