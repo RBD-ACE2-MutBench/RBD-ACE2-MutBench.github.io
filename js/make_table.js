@@ -26,7 +26,7 @@ table = new Tabulator("#models-table", {
      field:"Names",
      responsive: 0,
      widthGrow: 2,
-     minWidth: 150,
+     minWidth: 100,
      selectable: false
     },
     {
