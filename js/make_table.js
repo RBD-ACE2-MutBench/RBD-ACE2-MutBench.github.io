@@ -31,42 +31,42 @@ table = new Tabulator("#models-table", {
     {
       title:"HADDOCK",
       field:"HADDOCK",
-      description:"HADDOCK score. A prediction of how well the proteins interact. Lower scores mean stronger (better) interactions.",
+      description:"HADDOCK score. Lower scores indicate stronger interactions.",
       responsive: 0,
       minWidth: 100
     },
     {
       title:"FoldX",
       field:"FoldX",
-      description:"Foldx score. A prediction of how well the proteins interact. Lower scores mean stronger (better) interactions.",
+      description:"Foldx score. Lower scores indicate stronger interactions.",
       responsive: 0,
       minWidth: 100
     },
     {
       title:"FoldXwater",
       field:"FoldXwater",
-      description:"Foldxwater score. A prediction of how well the proteins interact. Lower scores mean stronger (better) interactions.",
+      description:"Foldxwater score. Lower scores indicate stronger interactions.",
       responsive: 0,
       minWidth: 100
     },
     {
       title:"EvoEF1",
       field:"EvoEF1",
-      description:"Evoef1 score. A prediction of how well the proteins interact. Lower scores mean stronger (better) interactions.",
+      description:"Evoef1 score. Lower scores indicate stronger interactions.",
       responsive: 0,
       minWidth: 100
     },
     {
       title:"MutaBind2",
       field:"MutaBind2",
-      description:"Mutabind2 score. A prediction of how well the proteins interact. Lower scores mean stronger (better) interactions.",
+      description:"Mutabind2 score. Lower scores indicate stronger interactions.",
       responsive: 0,
       minWidth: 100
     },
     {
       title:"SSIPe",
       field:"SSIPe",
-      description:"HADDOCK score. A prediction of how well the proteins interact. Lower scores mean stronger (better) interactions.",
+      description:"SSPIe score. Lower scores indicate stronger interactions..",
       responsive: 0,
       minWidth: 100
     },
@@ -75,7 +75,7 @@ table = new Tabulator("#models-table", {
 
   // Layout
   layout:"fitColumns",
-  resizableColumns: false,
+  resizableColumns: true,
   selectable: false,
   columnHeaderVertAlign: "bottom", //align header contents to bottom of cell
   responsiveLayout: "hide",
