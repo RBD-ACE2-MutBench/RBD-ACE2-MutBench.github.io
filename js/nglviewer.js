@@ -45,7 +45,7 @@ let schemeId = NGL.ColormakerRegistry.addScheme( function( params ){
           return 0xffb347;
         }
         else if (atom.element == 'C' && atom.chainname == 'A'){
-          return 0xF1C232;
+          return 0x0B5394;
         }
         else if (atom.element == 'C' && atom.chainname == 'E'){
           return 0xFFD700;
