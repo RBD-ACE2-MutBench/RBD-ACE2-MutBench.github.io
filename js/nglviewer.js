@@ -58,7 +58,7 @@ let schemeId = NGL.ColormakerRegistry.addScheme( function( params ){
 
 let mutSchemeId = NGL.ColormakerRegistry.addScheme( function( params ){
     this.atomColor = function( atom ){
-      return 0xffff00;
+      return 0x990000;
     };
 } );
 
